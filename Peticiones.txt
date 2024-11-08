@@ -1,0 +1,109 @@
+Titulos: 
+
+1 cambiar libutiliz por cajas == Listo
+
+2 Cambiar los titulos a :  bg = azul claro y las letras en blanco == Listo
+
+3 Agrandar la fuente de letra == Listo
+
+4 quitar las lineas de excel  == Listo
+
+Info:  
+
+Bruto : Peso bruto (kg) == Listo
+Neto: Peso neto (kg) == Listo
+Volumen : Volumen (m3) == Listo
+Importe : Valor FOB == Listo
+Doc.comer. :  Pedido == Listo
+LibrUtiliz : Cajas  == Listo
+
+
+Totales: 
+a bruto y a neto ponerles el kg, importe sería "Ventas totales FOB" y Total cajas == Listo
+
+
+Adicionales:
+ 
+Añadir una fila la cual se llame "Adición Referencias " == Listo
+
+
+
+*******NOTA*******
+
+Cuando el programa se ejecuta usando GCFOODS, a la hora de exportarlos la columna Lote aparecen todos los datos como NONE, arreglar eso
+
+
+
+Test:
+
+ Peru
+  goya
+   dagec  
+
+
+****NOTA****
+
+Todo funciona como debería funcionar excepto lo de la nota anterior, mañana arreglarlo == arreglado
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+poner la multiplocacion ya hecha : hecho
+
+Lo iba a hacer pero es una perdida de tiempo ya que de que sirve saber cual es el resultado sin saber que se está multiplicando,
+por ende si sequiere saber las multiplicaciones  basta con hacer un " = c*k "  y arrastrar la formula hasta donde se desea, literalmente 
+no se demora más de 2 minutos
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* arregla "buscar_datos" ya que como  se movió de lugar la columna "Cajas" entonces al copiar al portapapeles las cosas aparecen desordenadas
+
+** arreglar el formato de la exportacion para que se vean todos los datos sin mover na'
+
+*** poner un nombre estandar a la base de datos por si la cambian 
+
+**** los scrolls de "ver inventario" y  "los contenedores por dentro" se bugean
+
+***** adicion de vetana de notificacion de archivo exportado
+
+****** solo se podrá poner un cliente por ejeccuion
+
+
+
+
+_internal\Data_Base\Portafoliocompletointernacional.xlsx
+
+
+
+iniciarlizar la base de datos y limpiarla de espacios == Listo
+
+
+los 2 que no aparecen es porque no estan en portafolio 
+
+
+errores: 
+
+-  NaN == Listo
+
+----  actualizar el manual, decir que para que funcione se debe poner en formato xlsx y quitar la primera fila que no tiene informacion para que pueda filtrar  == Listo 
+
+
+
+----- Poner formulas para que se muestren los resultados por todas las cajas, tirar pa la ñola las columnas del portafolio y tirar a la ñola el copiar y pegar del buscar datos (dejas las columnas P y Q libres porque ahí está la tabla con los totales) y obviamente cambiar el metodo de buscar datos
+
+actualizacion :  ya se muestran toas las columans con sus datos por cajaspero hay que organizarlas ya que se están mostrando a lo ultimo == así se queda   
+
+
+
+
+
+PRIORIDAD
+
+------------------------------------------------------------------------------------------------
+| verificar si se están mandando los datos en orden  ========  revisar como se están mandando  |   == Listo
+------------------------------------------------------------------------------------------------
+
+---  revisar el contenedor por defecto ya que se está poniendo un valor que creo que no deberia ser  ==  Listo 
